@@ -1,0 +1,566 @@
+body{
+  margin: 0;
+}
+
+/* -------------------------------- Scroll Bar --------------------------------------*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+/* -------------------------------- Home Page CSS ----------------------------------*/
+
+.main_content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+}
+
+
+/* --------------------------------Introduction  Page CSS ----------------------------------*/
+.introduction{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background: url('bg1.jpg');
+  background-size: cover;
+}
+
+.introduction .signature{
+  position: absolute;
+  font-family: Sacramento;
+  font-weight: 400;
+  font-size: 350%;
+  color: white;
+  left: 50%;
+  top: 10%;
+}
+
+.introduction .intro{
+  position: absolute;
+  font-family: open sans;
+  font-weight: 600;
+  font-size: 230%;
+  color: white;
+  left: 45%;
+  top: 30%;
+  margin-left: 1%;
+}
+
+.introduction .details{
+  position: absolute;
+  font-family: open sans;
+  font-weight: 400;
+  font-size: 120%;
+  color: white;
+  left: 45%;
+  top: 45%;
+  margin-right: 10%;
+  margin-left: 1%;
+  line-height: 2;
+}
+
+.introduction ul{
+  position: absolute;
+  list-style-type: none;
+  top: 75%;
+  left: 45%;
+}
+
+.introduction ul li{
+  position: relative;
+  color: white;
+  float: left;
+  font-size: 150%;
+  margin-left: 50px;
+  border-radius: 100%;
+}
+
+.introduction ul li a{
+  color: white;
+}
+
+.introduction ul li i{
+  padding: 12px 12px 10px 12px;
+}
+
+/* --------------------------------Strength Page CSS ----------------------------------*/
+
+.strength{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color: white;
+}
+
+.strength .image1{
+  position: absolute;
+  width: 38%;
+  height: 80%;
+  left: 2.5%;
+  top: 10%;
+}
+
+.strength .image1 img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.strength .heading{
+  position: absolute;
+  align-self: center;
+  left: 45%;
+  font-size: 200%;
+  font-weight: 600;
+  top: 10%;
+  font-family: open sans;
+  color: #3498db;
+}
+
+.strength .lang{
+  list-style-type: none;
+  position: absolute;
+  left: 45%;
+  top: 30%;
+}
+
+.strength .lang .icons{
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  float: left;
+  margin: 2%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px grey;
+}
+.strength .lang .icons svg{
+  position: relative;
+  width: 50%;
+  height: 80%;
+  margin: auto;
+  display: block;
+  padding-top: 10%;
+}
+.strength .desc{
+  list-style-type: none;
+  position: absolute;
+  top: 70%;
+  left: 45%;
+}
+.strength .desc .info{
+  position: relative;
+  font-family: open sans;
+  line-height: 2;
+  color: black;
+}
+
+.strength .desc .info i{
+  color: orange;
+  padding-right: 5px;
+}
+
+/* --------------------------------Education Page CSS ----------------------------------*/
+
+.education{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color: #fffffe;
+}
+
+.education .heading{
+  position: absolute;
+  align-self: center;
+  left: 45%;
+  font-size: 200%;
+  font-weight: 600;
+  top: 10%;
+  font-family: open sans;
+  color: #3498db;
+}
+
+.education .card-education{
+  position: relative;
+  width: 28%;
+  height: 60%;
+  top: 25%;
+  left: 5%;
+  margin-left: 1%;
+  margin-top: 1%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px grey;
+  float: left;
+}
+
+
+.card-education ul{
+  list-style-type: none;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-education ul li{
+  line-height: 2;
+}
+
+.card-education ul li .institute-name{
+  position: relative;
+  font-family: Open sans;
+  color: #3498db;
+  font-weight: 600;
+  font-size: 100%;
+}
+
+.card-education ul li .university-name{
+  position: relative;
+  font-family: Open sans;
+  font-size: 100%;
+}
+
+.card-education ul li .qualification{
+  position: relative;
+  font-family: Open sans;
+  font-size: 100%;
+  font-weight: 600;
+}
+
+.card-education ul li .year-passed-out{
+  position: relative;
+  font-family: Open sans;
+  font-size: 100%;
+  background-color: #3498db;
+  color: white;
+  padding: 1% 2% 2% 2%;
+  border-radius: 5px;
+  line-height: 3;
+}
+
+.card-education ul li .percentage{
+  position: relative;
+  font-family: Open sans;
+  font-size: 100%;
+  background-color: #2ecc71;
+  color: white;
+  padding: 1% 2% 2% 2%;
+  border-radius: 5px;
+}
+
+/* --------------------------------Experience Page CSS ----------------------------------*/
+
+.experience{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color: #fffffe;
+}
+
+.experience .heading{
+  position: absolute;
+  align-self: center;
+  left: 45%;
+  font-size: 200%;
+  font-weight: 600;
+  top: 10%;
+  font-family: open sans;
+  color: #3498db;
+}
+
+.experience .card-experience{
+  position: relative;
+  width: 28%;
+  height: 65%;
+  top: 25%;
+  left: 5%;
+  margin-left: 1%;
+  margin-top: 1%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px grey;
+  float: left;
+}
+
+.experience .card-experience .company-name{
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background-color: #3498db;
+}
+
+.experience .card-experience .company-name .company-name-label{
+  text-align: center;
+  display: block;
+  font-family: open sans;
+  font-size: 120%;
+  font-weight: 600;
+  color: white;
+  padding-top: 5%;
+}
+
+.experience .card-experience .logo{
+  position: absolute;
+  width: 100%;
+  height: 45%;
+  top: 20%;
+}
+
+.experience .card-experience .logo img{
+  position: absolute;
+  width: 30%;
+  height: 60%;
+  top: 10%;
+  left: 35%;
+  border-radius: 50%;
+}
+
+
+.experience .card-experience .role{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 70%;
+}
+
+.experience .card-experience .role .role-label{
+  text-align: center;
+  display: block;
+  font-family: open sans;
+  font-weight: 600;
+  font-size: 120%;
+  color: black;
+}
+
+.experience .card-experience .experience-years{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 80%;
+}
+
+.experience .card-experience .experience-years .experience-years-label{
+  text-align: center;
+  display: block;
+  font-family: open sans;
+  font-size: 90%;
+  color: black;
+}
+
+/* --------------------------------Projects Page CSS ----------------------------------*/
+
+.projects{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color: #fffffe;
+}
+
+.projects .heading{
+  position: absolute;
+  align-self: center;
+  left: 45%;
+  font-size: 200%;
+  font-weight: 600;
+  top: 10%;
+  font-family: open sans;
+  color: #3498db;
+}
+
+.projects .card-projects{
+  position: relative;
+  width: 28%;
+  height: 65%;
+  top: 25%;
+  left: 5%;
+  margin-left: 1%;
+  margin-top: 1%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px grey;
+  float: left;
+}
+
+.projects .card-projects .project-name{
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background-color: #3498db;
+}
+
+.projects .card-projects .project-name .project-name-label{
+  text-align: center;
+  display: block;
+  font-family: open sans;
+  font-size: 120%;
+  font-weight: 600;
+  color: white;
+  padding-top: 5%;
+}
+
+
+.projects .card-projects .project-logo{
+  position: absolute;
+  width: 100%;
+  height: 45%;
+  top: 20%;
+}
+
+.projects .card-projects .project-logo img{
+  position: absolute;
+  width: 30%;
+  height: 60%;
+  top: 10%;
+  left: 35%;
+  border-radius: 50%;
+}
+
+
+.projects .card-projects .project-desc{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 65%;
+}
+
+.projects .card-projects .project-desc .project-desc-label{
+  text-align: center;
+  display: block;
+  font-family: open sans;
+  font-size: 90%;
+  color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* --------------------------------Footer Page CSS ----------------------------------*/
+
+.footer{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: url('bg1.jpg');
+  background-size: cover;
+}
+
+.place{
+  position: absolute;
+  width: 40%;
+  height: 80%;
+  top: 10%;
+  left: 55%;
+}
+
+.place .district{
+  position: relative;
+  font-size: 300%;
+  font-family: open sans;
+  color: white;
+}
+
+.place .state{
+  position: relative;
+  font-size: 300%;
+  font-weight: 600;
+  font-family: open sans;
+  color: black;
+}
+
+.place .address{
+  position: absolute;
+  line-height: 2;
+  font-family: open sans;
+  color: black;
+  margin-top: 2%;
+  font-weight: 600;
+  font-size: 130%;
+}
+
+.place .emailId{
+  position: absolute;
+  font-size: 130%;
+  color: white;
+  font-family: open sans;
+  font-weight: 600;
+  margin-top: 35%;
+
+}
+
+.place .emailId i{
+  padding-right: 10px;
+}
+
+.place .mobno{
+  position: absolute;
+  margin-top: 40%;
+  font-size: 130%;
+  color: white;
+  font-family: open sans;
+  font-weight: 600;
+}
+
+.place .mobno i{
+  padding-right: 10px;
+}
+
+.copyrights{
+  position: absolute;
+  top: 90%;
+  left: 40%;
+
+}
+
+.copyrights .copyrights-label{
+  font-size: 120%;
+  color: white;
+  font-family: Sacramento;
+}
+
+.copyrights .copyrights-label i{
+  color: red;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.footer ul{
+  position: absolute;
+  list-style-type: none;
+  top: 85%;
+  left: 65%;
+}
+
+.footer ul li{
+  position: relative;
+  color: white;
+  float: left;
+  font-size: 100%;
+  margin-left: 30px;
+  border-radius: 100%;
+}
+
+.footer ul li a{
+  color: white;
+}
+
+.footer ul li i{
+  padding: 12px 12px 10px 12px;
+}
